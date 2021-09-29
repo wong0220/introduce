@@ -1,0 +1,135 @@
+.neon1 {
+
+  font-size:100px;
+  color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa  0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,#0fa0 0 151px #0fa;
+  font-family: 'Vibur', cursive;
+  animation: pulsate 0.11s ease-in-out infinite alternate;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+img{
+  width:200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 0.15rem solid #fff;
+  box-shadow: 0 0 .15rem #fff,
+              0 0 0.8rem #bc13fe;
+}
+
+ul{
+  margin-top: 45px;
+}
+li{
+  list-style-type: none;
+}
+
+body{
+  background-image: url("image11.jpg");
+}
+
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+#kiw{
+  text-align: right;
+  padding-top: 20px;
+
+}
+#parent{
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+  width:70rem;
+}
+
+#grandpa{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+#table{
+  border-spacing: 4px 0px;
+}
+
+#bong{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe;
+}
+
+#kiw2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+@keyframes pulsate {
+
+  100% {
+
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #0fa,
+    0 0 73px #0fa,
+    0 0 80px #0fa,
+    0 0 94px #0fa,
+    0 0 140px #0fa;
+}
+
+}
+
+
+
+.title{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Vibur', cursive;
+}
+
+.title, p ,li{
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
